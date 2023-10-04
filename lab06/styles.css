@@ -1,0 +1,5 @@
+body{font-family: 'Times New Roman', Times, serif;}
+p, ul, td, th {color:rgb(55, 108, 215);}
+.evenrow{background-color:rgba(136, 135, 134, 0.333);}
+h1{font-size: 5 em;}
+h2{font-size: 4 em;}
