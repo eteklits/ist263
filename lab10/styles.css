@@ -1,0 +1,88 @@
+body{background-color: #9F8777;
+color: #ede4ee}
+
+h1{color: #9F8777;
+background-color: #ede4ee;}
+
+a{color: #f4d198;}
+
+a:hover{color: #E2C2B9}
+
+p, ul, td, th {color: #ede4ee;}
+
+nav a {color: #0f0f0f;
+padding: 10px;
+}
+
+nav a:hover {background-color: #9a9ab4}
+
+.clear1{float: left;}
+.clear2{float: right;}
+
+
+.row1, .row2{
+    border-radius: 1em;}
+
+.row1 {background-color: #9a9ab4;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    
+    }
+.row2 {background-color: #9a9ab4;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+.column2{text-align: center;
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+.column4{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+
+.title1 {text-align: center;
+margin: 10px;
+padding:10px;
+}
+
+.hello1 {display:flex;
+    margin: 30px;
+    padding:30px;
+justify-content: space-around;
+flex:3; }
+
+
+
+.Otherskills{background-color: #837fff;
+border-radius:1em;
+flex:1;
+margin: 30px;
+padding: 30px;
+}
+
+.flexbox2 {display:flex;
+    margin: 30px;
+    padding:30px;
+   }
+
+.headerimage {max-width: 100%;}
+
+@media only screen and (max-width:600px) {
+    nav a {display:block;
+        max-width: 100%;}
+    span {display:none;}
+
+}
+@media only screen and (min-width:601px) {
+}
+
+
