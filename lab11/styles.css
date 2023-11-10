@@ -9,9 +9,9 @@ font-size: 40px;}
 a{color: #f4d198;
     font-size: 20px;}
 
-a:hover{color: #E2C2B9;}
+a:hover{color: #e9cac1;}
 
-p, ul, td, th {color: #ede4ee;
+p, ul, td, th {color: #f3eef4;
     font-size: 20px;}
 
 nav a {color: #0f0f0f;
@@ -19,7 +19,7 @@ padding: 10px;
 font-size: 20px;
 }
 
-nav a:hover {background-color: #9a9ab4;}
+nav a:hover {background-color: #c24444;}
 
 .clear1{float: left;}
 .clear2{float: right;}
@@ -28,14 +28,14 @@ nav a:hover {background-color: #9a9ab4;}
 .row1, .row2{
     border-radius: 1em;}
 
-.row1 {background-color: #9a9ab4;
+.row1 {background-color: #151588;
     flex: 1;
     padding: 10px;
     margin: 10px;
     display: flex;
     
     }
-.row2 {background-color: #9a9ab4;
+.row2 {background-color: #2222a7;
     flex: 1;
     padding: 10px;
     margin: 10px;
@@ -67,7 +67,7 @@ flex:3; }
 
 
 
-.Otherskills{background-color: #837fff;
+.Otherskills{background-color: #0e099e;
 border-radius:1em;
 flex:1;
 margin: 30px;
@@ -91,7 +91,7 @@ padding: 30px;
 }
 
 
-.skip {background-color: #7fffd4;
+.skip {background-color: #00573a;
     padding: 5px;
     border: 5 px;
     text-decoration: none;
