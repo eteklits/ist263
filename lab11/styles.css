@@ -1,8 +1,8 @@
-body{background-color: #9F8777;
+body{background-color: #584a41;
 color: #ede4ee;
 font-size: 20px;}
 
-h1{color: #9F8777;
+h1{color: #584a41;
 background-color: #ede4ee;
 font-size: 40px;}
 
@@ -100,5 +100,5 @@ padding: 30px;
     left: -999px; /* postiions is off the left of teh screen*/
 }
 .skip:focus {
-    left:10px;
+    left: 10px;
 }
