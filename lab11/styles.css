@@ -93,7 +93,6 @@ padding: 30px;
 
 .skip {background-color: #00573a;
     padding: 5px;
-    border: 5 px;
     text-decoration: none;
     position: absolute; /* it positions an element relative to the top left corner of the viewport*/
     top: 10px;
