@@ -1,0 +1,95 @@
+/* Accessibility*/ 
+#skip {background-color: #7fffd4;
+    padding: 5px;
+    border: 5 px;
+    text-decoration: none;
+    position: absolute; 
+    top: 10px;
+    left: -999px}
+
+    body {background-color: rgba(148, 221, 245, 0.622);}
+
+    /*Navigation*/
+nav {float: right;
+    color: #000000;
+    border-radius: 4em;
+    padding: 10px;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;}
+    nav:hover {background-color: #54a2f03c;}
+
+    /*Header- Australia*/
+    h1 {text-align:center;
+        font-size: 60px;
+        background-color: #54a2f03c;
+        padding: 1px;
+        color:aliceblue;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+/* First Video */
+.video {display:flex;
+justify-content: center;
+}
+
+video {border: 10px solid #ffffff;}
+
+/*first paragraph */
+.firstparagraph {text-align: center;
+background-color: #54a2f03c;
+padding:10px;
+font-size: 15px;
+border-radius: 1em;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+/*first complex design*/
+img {border: 5px solid #ffffff;}
+
+.row1 {display:flex;
+    justify-content: space-around;
+}
+
+.column1, .column2 {padding: 10px;
+justify-content: left;}
+
+
+.column2{ background-color: #54a2f03c;
+    padding:10px;
+    border-radius: 1em;
+    border: 5px solid #ffffff;}
+
+/*second complex design*/
+.row2 {
+    display:flex;
+}
+
+.column4, .column5 {flex:3;}
+
+h3 {font-size: 35px;
+font-family: monospace;
+background-color: #54a2f03c;
+color:#f9f9f9;
+text-align:center;
+border: 7px solid #ffffff;}
+
+.tinyparagraph, .tinyparagraph2, .tinyparagraph3, .tinyparagraph4{text-align:center;}
+
+.row3, .row4{display:flex;
+justify-content: space-around;}
+
+
+/*footer*/
+.row5{ display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #54a2f03c;;
+    border-radius: 1em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    }
+
+.questions3, .nice {flex:auto;
+padding:20px;
+text-align: center;}
+
+.nice{padding:30px;}
