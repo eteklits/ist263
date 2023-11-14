@@ -43,7 +43,9 @@ border-radius: 1em;
 font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
 /*first complex design*/
-img {border: 5px solid #ffffff;}
+img {border: 5px solid #ffffff;
+    margin: 5px;
+}
 
 .row1 {display:flex;
     justify-content: space-around;
@@ -51,7 +53,6 @@ img {border: 5px solid #ffffff;}
 
 .column1, .column2 {padding: 10px;
 justify-content: left;}
-
 
 .column2{ background-color: #54a2f03c;
     padding:10px;
