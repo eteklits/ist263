@@ -101,6 +101,7 @@ nav{
     justify-content:space-between;
     flex: 1;
     align-items: center;}
+
 .column11, .column12 {
     flex:3;}
 
@@ -155,7 +156,8 @@ font-family: 'Didot',serif ;}
 
 .questions3, .nice {flex:auto;
 padding:10px;
-text-align: center;}
+text-align: center;
+align-items:center;}
 
 
 /*images*/
@@ -164,4 +166,24 @@ img {border: 7px solid #ffffff;}
 hr {
     border: 3px solid #ffffff; 
     margin: 0px 0; 
+  }
+
+  @media only screen and (max-width:800px) { 
+    .row5{align-items: center;}
+
+    nav{
+        position: absolute;
+        top: 2%; 
+        right: 1%;
+        color: #000000;
+        background-color: #ffffff;
+        padding:2px;
+        font-size: 12px;
+        font-family: 'Courier New', Courier, monospace;}
+        nav:hover {background-color: #54a2f03c;
+        color: black;}
+  }
+
+  @media only screen and (min-width:801px) {
+        
   }
