@@ -7,18 +7,35 @@
     top: 10px;
     left: -999px}
    
-body {background-color: rgba(148, 221, 245, 0.622);}
+body {background-color: #94ddf59f;}
 
 /*Navigation*/
-nav {float: right;
+nav{
+    position: absolute;
+    top: 2%; 
+    right: 1%;
     color: #000000;
-    border-radius: 4em;
-    padding: 10px;
-    font-size: large;
+    background-color: #ffffff;
+    padding:10px;
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;}
-    nav:hover {background-color: #54a2f03c;}
+    nav:hover {background-color: #54a2f03c;
+    color: black;}
+
+    header {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto; 
+      }
     
-/*Header- Australia*/
+      header img {
+        width: 100%;
+        height: auto;
+        display: block; 
+        margin-top: -30px;
+        margin-bottom: -20px;
+      }
+/*Header- Australia
     h1 {text-align:center;
     font-size: 60px;
     background-color: #54a2f03c;
@@ -26,22 +43,24 @@ nav {float: right;
     color:aliceblue;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border: 7px solid #ffffff;
-    }
+    }*/
 
 /*First paragraph*/
 .firstparagraph {text-align: center;
     background-color: #54a2f03c;
     padding:10px;
-    font-size: 13px;
+    font-size: 15px;
     border-radius: 1em;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    font-family: 'Didot',serif ;}
 
 
 /* 1st complex design*/
 .row1 {display:flex;
     justify-content: center;
-    justify-content:space-between;
-    flex: 1;}
+    justify-content:space-around;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;}
 .column3, .column4 {
     flex:3;}
 
@@ -50,20 +69,23 @@ nav {float: right;
 
 .column4, .column1{padding:5px;
     background-color: #54a2f03c;
-    margin: 10px;
+    margin: 5px;
     border-radius: 1em;}
 
+.column2, .column3 {padding: 10px;}
 
 
 /* 2nd complex design*/
 .row2, .row3 {display:flex;
     justify-content: center;
     justify-content:space-between;
-    flex: 1;}
-.column7, .column8,{
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;}
+.column7, .column8{
     flex:3;}
 
-.column5, .column6,{
+.column5, .column6{
     flex:3;}
 
 .column8, .column5{padding:5px;
@@ -71,11 +93,14 @@ nav {float: right;
     margin: 10px;
     border-radius: 1em;}
 
+.column6, .column7 {padding: 10px}
+
 /* 3rd complex design*/
 .row3 {display:flex;
     justify-content: center;
     justify-content:space-between;
-    flex: 1;}
+    flex: 1;
+    align-items: center;}
 .column11, .column12 {
     flex:3;}
 
@@ -87,12 +112,17 @@ nav {float: right;
     margin: 10px;
     border-radius: 1em;}
 
+.column9, .column11 {padding: 10px;}
+
 
 /* 4th complex design*/
 .row4 {display:flex;
     justify-content: center;
     justify-content:space-between;
-    flex: 1;}
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;}
+
 .column15, .column16 {
     flex:3;}
 
@@ -104,29 +134,34 @@ nav {float: right;
     margin: 10px;
     border-radius: 1em;}
 
+.column14, .column15 {padding: 10px;}
+
 /*footer*/
 .footer{background-color: #54a2f03c;
 margin: 10px;
 font-size: 15px;
 border-radius: 1em;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+padding:5px;
+font-family: 'Didot',serif ;}
 
 /*footer*/
 .row5{ display:flex;
     justify-content: center;
     justify-content: space-between;
     background-color: #54a2f03c;;
-    border-radius: 1em;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Didot',serif ;
     font-size: 15px;
     }
 
 .questions3, .nice {flex:auto;
-padding:20px;
+padding:10px;
 text-align: center;}
 
-.nice{padding:30px;}
 
 /*images*/
-
 img {border: 7px solid #ffffff;}
+
+hr {
+    border: 3px solid #ffffff; 
+    margin: 0px 0; 
+  }
