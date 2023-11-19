@@ -10,22 +10,40 @@
     body {background-color: rgba(148, 221, 245, 0.622);}
 
     /*Navigation*/
-nav {float: right;
-    color: #000000;
-    border-radius: 4em;
-    padding: 10px;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;}
-    nav:hover {background-color: #54a2f03c;}
+    nav{
+        position: absolute;
+        top: 2%; 
+        right: 1%;
+        color: #000000;
+        background-color: #ffffff;
+        padding:10px;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;}
+        nav:hover {background-color: #54a2f03c;
+        color: black;}
+    
+        header {
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto; 
+          }
+        
+          header img {
+            width: 100%;
+            height: auto;
+            display: block; 
+            margin-top: -30px;
+            margin-bottom: -20px;
+          }
 
-    /*Header- Australia*/
+    /*Header- Australia
     h1 {text-align:center;
         font-size: 60px;
         background-color: #54a2f03c;
         padding: 1px;
         color:aliceblue;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
+        }*/
 
 /* First Video */
 .video {display:flex;
@@ -38,9 +56,9 @@ video {border: 10px solid #ffffff;}
 .firstparagraph {text-align: center;
 background-color: #54a2f03c;
 padding:10px;
-font-size: 15px;
+font-size: 20px;
 border-radius: 1em;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+font-family: 'Didot',serif ;}
 
 /*first complex design*/
 img {border: 5px solid #ffffff;
@@ -49,10 +67,13 @@ img {border: 5px solid #ffffff;
 
 .row1 {display:flex;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .column1, .column2 {padding: 10px;
-justify-content: left;}
+justify-content: left;
+}
 
 .column2{ background-color: #54a2f03c;
     padding:10px;
@@ -62,9 +83,11 @@ justify-content: left;}
 /*second complex design*/
 .row2 {
     display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.column4, .column5 {flex:3;}
+.column4, .column5 {flex:1;}
 
 h3 {font-size: 35px;
 font-family: monospace;
@@ -73,24 +96,24 @@ color:#f9f9f9;
 text-align:center;
 border: 7px solid #ffffff;}
 
-.tinyparagraph, .tinyparagraph2, .tinyparagraph3, .tinyparagraph4{text-align:center;}
+.tinyparagraph, .tinyparagraph2, .tinyparagraph3, .tinyparagraph4{text-align:center;
+    font-size: 15px;
+}
 
 .row3, .row4{display:flex;
-justify-content: space-around;}
+justify-content: space-around;
+flex-wrap: wrap;}
 
 
 /*footer*/
 .row5{ display:flex;
     justify-content: center;
     justify-content: space-between;
-    background-color: #54a2f03c;;
-    border-radius: 1em;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #54a2f03c;
+    font-family: 'Didot',serif ;
     font-size: 15px;
     }
 
 .questions3, .nice {flex:auto;
-padding:20px;
+padding:10px;
 text-align: center;}
-
-.nice{padding:30px;}
