@@ -119,6 +119,10 @@ text-align: center;}
 
         .sydney, .travel, .school, .row1{
         flex-wrap: wrap;}
+        
+        .row2 {
+            align-items: center;
+        }
 
     }
 @media only screen and (min-width:801px) {
