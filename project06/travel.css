@@ -89,6 +89,10 @@ justify-content: left;
 
 .column4, .column5 {flex:1;}
 
+.column5 img, .column4 img{
+    padding: 15px;
+}
+
 h3 {font-size: 35px;
 font-family: monospace;
 background-color: #54a2f03c;
