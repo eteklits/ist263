@@ -81,7 +81,7 @@ nav{
 .column4, .column1{padding:5px;
     background-color: #54a2f03c;
     margin: 5px;
-    border-radius: 1em;}
+    }
 
 .column2, .column3 {padding: 10px;}
 
@@ -102,7 +102,7 @@ nav{
 .column8, .column5{padding:5px;
     background-color: #54a2f03c;
     margin: 10px;
-    border-radius: 1em;}
+    }
 
 .column6, .column7 {padding: 10px}
 
@@ -122,7 +122,7 @@ nav{
 .column12, .column9{padding:5px;
     background-color: #54a2f03c;
     margin: 10px;
-    border-radius: 1em;}
+    }
 
 .column9, .column11 {padding: 10px;}
 
@@ -144,7 +144,7 @@ nav{
 .column13, .column16{padding:5px;
     background-color: #54a2f03c;
     margin: 10px;
-    border-radius: 1em;}
+    }
 
 .column14, .column15 {padding: 10px;}
 
@@ -163,6 +163,7 @@ font-family: 'Hedvig Letters Serif', serif;}
     background-color: #54a2f03c;;
     font-family: 'Hedvig Letters Serif', serif;
     font-size: 15px;
+    padding:5px;
     border: 5px solid #ffffff;
     }
 
