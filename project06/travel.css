@@ -8,6 +8,8 @@ body{font-family: 'Hedvig Letters Serif', serif;}
     top: 10px;
     left: -999px}
 
+    a {color:#000000;}
+
     body {background-color: rgba(148, 221, 245, 0.622);}
 
     .nav1,.nav2,.nav3{text-decoration: none;
@@ -59,9 +61,11 @@ video {border: 10px solid #ffffff;}*/
 
 /*first paragraph */
 .firstparagraph {text-align: center;
+color: white;
+font-weight: 800px;
 background-color: #54a2f03c;
 padding:10px;
-font-size: 18px;
+font-size: 22px;
 font-family: 'Hedvig Letters Serif', serif;}
 
 /*first complex design*/
@@ -150,5 +154,6 @@ text-align: center;}
 
     .column3, .column4 {
         max-width: 100%;
+        background-color: #54a2f03c;
     }
   }
