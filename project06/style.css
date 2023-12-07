@@ -1,4 +1,6 @@
 /* Accessibility*/ 
+body{font-family: 'Hedvig Letters Serif', serif;}
+
 #skip {background-color: #7fffd4;
     padding: 5px;
     border: 5 px;
@@ -20,7 +22,7 @@ color: #000000;
 background-color: #ffffff;
 padding:10px;
 font-size: 20px;
-font-family: 'Courier New', Courier, monospace;}
+font-family: 'Hedvig Letters Serif', serif;}
 nav:hover {background-color: #54a2f03c;
 color: black;}
 
@@ -44,7 +46,7 @@ font-size: 30px;
 background-color: #54a2f03c;
 padding: 15px;
 color: #000000;
-font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Hedvig Letters Serif', serif;
 border: 7px solid #ffffff;
 }
 
@@ -64,7 +66,7 @@ img {border: 7px solid #ffffff;}
     background-color: #54a2f03c;
     padding: 30px;
     font-size: 17px;
-    font-family: 'Didot',serif ;
+    font-family: 'Hedvig Letters Serif', serif; ;
     color: #000000;
     border-radius: 1em;
 }
@@ -80,7 +82,7 @@ flex:1;
 text-align: center;
 background-color: #54a2f03c;
 font-size: 15px;
-font-family: 'Didot',serif ;
+font-family:'Hedvig Letters Serif', serif;
 margin: 10px;
 border-radius: 1em;
 border: 7px solid #ffffff;
@@ -92,7 +94,7 @@ div strong {font-size: 25px;}
     justify-content: center;
     justify-content: space-between;
     background-color: #54a2f03c;;
-    font-family: 'Didot',serif ;
+    font-family: 'Hedvig Letters Serif', serif;
     font-size: 15px;
     }
 
@@ -113,7 +115,7 @@ text-align: center;}
         background-color: #ffffff;
         padding:2px;
         font-size: 12px;
-        font-family: 'Courier New', Courier, monospace;}
+        font-family: 'Hedvig Letters Serif', serif;}
         nav:hover {background-color: #54a2f03c;
         color: black;}
 
