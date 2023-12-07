@@ -11,7 +11,8 @@ body{font-family: 'Hedvig Letters Serif', serif;}
     body {background-color: rgba(148, 221, 245, 0.622);}
 
     .nav1,.nav2,.nav3{text-decoration: none;
-        margin: 10px;}
+        margin: 10px;
+        color: #000000;}
 
     /*Navigation*/
     nav{
@@ -49,19 +50,18 @@ body{font-family: 'Hedvig Letters Serif', serif;}
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }*/
 
-/* First Video */
+/* First Video 
 .video {display:flex;
 justify-content: center;
 }
 
-video {border: 10px solid #ffffff;}
+video {border: 10px solid #ffffff;}*/
 
 /*first paragraph */
 .firstparagraph {text-align: center;
 background-color: #54a2f03c;
 padding:10px;
 font-size: 18px;
-border-radius: 1em;
 font-family: 'Hedvig Letters Serif', serif;}
 
 /*first complex design*/
@@ -81,7 +81,6 @@ justify-content: left;
 
 .column2{ background-color: #54a2f03c;
     padding:10px;
-    border-radius: 1em;
     border: 5px solid #ffffff;}
 
 /*second complex design*/
@@ -106,6 +105,8 @@ border: 7px solid #ffffff;}
 
 .tinyparagraph, .tinyparagraph2, .tinyparagraph3, .tinyparagraph4{text-align:center;
     font-size: 15px;
+    background-color:#54a2f03c;
+    padding: 7px;
 }
 
 .row3, .row4{display:flex;
@@ -120,7 +121,7 @@ justify-content: space-around;
     background-color: #54a2f03c;
     font-family: 'Hedvig Letters Serif', serif;
     font-size: 15px;
-    border: 7px solid #ffffff;
+    border: 5px solid #ffffff;
     }
 
 .questions3, .nice {flex:auto;
