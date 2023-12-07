@@ -1,3 +1,4 @@
+body{font-family: 'Hedvig Letters Serif', serif;}
 /* Accessibility*/ 
 #skip {background-color: #7fffd4;
     padding: 5px;
@@ -18,7 +19,8 @@
         background-color: #ffffff;
         padding:10px;
         font-size: 20px;
-        font-family: 'Courier New', Courier, monospace;}
+        font-family: 'Hedvig Letters Serif', serif;}
+
         nav:hover {background-color: #54a2f03c;
         color: black;}
     
@@ -58,7 +60,7 @@ background-color: #54a2f03c;
 padding:10px;
 font-size: 18px;
 border-radius: 1em;
-font-family: 'Didot',serif ;}
+font-family: 'Hedvig Letters Serif', serif;}
 
 /*first complex design*/
 img {border: 5px solid #ffffff;
@@ -94,7 +96,7 @@ justify-content: left;
 }
 
 h3 {font-size: 35px;
-font-family: monospace;
+ font-family: 'Hedvig Letters Serif', serif;
 background-color: #54a2f03c;
 color:#f9f9f9;
 text-align:center;
@@ -114,7 +116,7 @@ justify-content: space-around;
     justify-content: center;
     justify-content: space-between;
     background-color: #54a2f03c;
-    font-family: 'Didot',serif ;
+    font-family: 'Hedvig Letters Serif', serif;
     font-size: 15px;
     }
 
@@ -133,7 +135,7 @@ text-align: center;}
         background-color: #ffffff;
         padding:2px;
         font-size: 12px;
-        font-family: 'Courier New', Courier, monospace;}
+        font-family: 'Hedvig Letters Serif', serif;}
         nav:hover {background-color: #54a2f03c;
         color: black;}
 
