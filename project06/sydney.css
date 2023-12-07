@@ -10,6 +10,9 @@ body{font-family: 'Hedvig Letters Serif', serif;}
    
 body {background-color: #94ddf59f;}
 
+.nav1,.nav2,.nav3{text-decoration: none;
+    margin: 10px;}
+
 /*Navigation*/
 nav{
     position: absolute;
@@ -20,8 +23,8 @@ nav{
     padding:10px;
     font-size: 20px;
     font-family: 'Hedvig Letters Serif', serif;}
-    nav:hover {background-color: #54a2f03c;
-    color: black;}
+    nav:hover {background-color: rgba(0, 0, 0, 0);;
+        color: black;}
 
     header {
         width: 100%;
@@ -153,6 +156,7 @@ font-family: 'Hedvig Letters Serif', serif;}
     background-color: #54a2f03c;;
     font-family: 'Hedvig Letters Serif', serif;
     font-size: 15px;
+    border: 7px solid #ffffff;
     }
 
 .questions3, .nice {flex:auto;
