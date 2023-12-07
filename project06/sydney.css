@@ -11,7 +11,8 @@ body{font-family: 'Hedvig Letters Serif', serif;}
 body {background-color: #94ddf59f;}
 
 .nav1,.nav2,.nav3{text-decoration: none;
-    margin: 10px;}
+    margin: 10px;
+    color: #000000;}
 
 /*Navigation*/
 nav{
@@ -53,8 +54,14 @@ nav{
 .firstparagraph {text-align: center;
     background-color: #54a2f03c;
     padding:10px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Hedvig Letters Serif', serif;}
+
+.firstparagraph2 {text-align: center;
+    background-color: #54a2f03c;
+    padding:10px;
     font-size: 15px;
-    border-radius: 1em;
     font-family: 'Hedvig Letters Serif', serif;}
 
 
@@ -156,7 +163,7 @@ font-family: 'Hedvig Letters Serif', serif;}
     background-color: #54a2f03c;;
     font-family: 'Hedvig Letters Serif', serif;
     font-size: 15px;
-    border: 7px solid #ffffff;
+    border: 5px solid #ffffff;
     }
 
 .questions3, .nice {flex:auto;
