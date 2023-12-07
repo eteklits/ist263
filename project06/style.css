@@ -11,7 +11,8 @@ body{font-family: 'Hedvig Letters Serif', serif;}
    
 body {background-color: #94ddf59f;}
 
-
+.nav1,.nav2,.nav3{text-decoration: none;
+margin: 10px;}
 
 /*Navigation*/
 nav{
@@ -22,9 +23,11 @@ color: #000000;
 background-color: #ffffff;
 padding:10px;
 font-size: 20px;
+text-decoration: none;
+text-decoration-line: none;
 font-family: 'Hedvig Letters Serif', serif;}
-nav:hover {background-color: #54a2f03c;
-color: black;}
+nav:hover {background-color: rgba(0, 0, 0, 0);;
+    color: black;}
 
 /* current header */
 header {
@@ -68,7 +71,7 @@ img {border: 7px solid #ffffff;}
     font-size: 17px;
     font-family: 'Hedvig Letters Serif', serif; ;
     color: #000000;
-    border-radius: 1em;
+
 }
 
 /*widgets*/
@@ -84,8 +87,6 @@ background-color: #54a2f03c;
 font-size: 15px;
 font-family:'Hedvig Letters Serif', serif;
 margin: 10px;
-border-radius: 1em;
-border: 7px solid #ffffff;
 }
 div strong {font-size: 25px;}
 
@@ -96,6 +97,7 @@ div strong {font-size: 25px;}
     background-color: #54a2f03c;;
     font-family: 'Hedvig Letters Serif', serif;
     font-size: 15px;
+    border: 7px solid #ffffff;
     }
 
 .questions3, .nice {flex:auto;
