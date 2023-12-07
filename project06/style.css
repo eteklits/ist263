@@ -99,6 +99,7 @@ div strong {font-size: 25px;}
     font-family: 'Hedvig Letters Serif', serif;
     font-size: 15px;
     border: 5px solid #ffffff;
+    padding:5px;
     }
 
 .questions3, .nice {flex:auto;
