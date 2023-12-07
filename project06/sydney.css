@@ -1,4 +1,4 @@
-body{font-family: 'Hedvig Letters Serif', serif;}
+body{font-family: 'Noto Serif', serif;}
 /* Accessibility*/ 
 #skip {background-color: #7fffd4;
     padding: 5px;
@@ -12,7 +12,7 @@ body {background-color: #94ddf59f;}
 
 .nav1,.nav2,.nav3{text-decoration: none;
     margin: 10px;
-    color: #000000;}
+    color: white;}
 
 /*Navigation*/
 nav{
@@ -20,10 +20,11 @@ nav{
     top: 2%; 
     right: 1%;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #56b3e9c1;
+    border: 1px solid white;
     padding:10px;
     font-size: 20px;
-    font-family: 'Hedvig Letters Serif', serif;}
+    font-family: 'Noto Serif', serif;}
     nav:hover {background-color: rgba(0, 0, 0, 0);;
         color: black;}
 
@@ -56,13 +57,13 @@ nav{
     padding:10px;
     font-size: 25px;
     font-weight: 900;
-    font-family: 'Hedvig Letters Serif', serif;}
+    font-family: 'Noto Serif', serif;}
 
 .firstparagraph2 {text-align: center;
     background-color: #54a2f03c;
     padding:10px;
     font-size: 15px;
-    font-family: 'Hedvig Letters Serif', serif;}
+    font-family: 'Noto Serif', serif;}
 
 
 /* 1st complex design*/
@@ -154,14 +155,14 @@ margin: 10px;
 font-size: 15px;
 border-radius: 1em;
 padding:5px;
-font-family: 'Hedvig Letters Serif', serif;}
+font-family: 'Noto Serif', serif;}
 
 /*footer*/
 .row5{ display:flex;
     justify-content: center;
     justify-content: space-between;
     background-color: #54a2f03c;;
-    font-family: 'Hedvig Letters Serif', serif;
+    font-family: 'Noto Serif', serif;
     font-size: 15px;
     padding:5px;
     border: 5px solid #ffffff;
@@ -192,7 +193,7 @@ hr {
         background-color: #ffffff;
         padding:2px;
         font-size: 12px;
-        font-family: 'Hedvig Letters Serif', serif;
+        font-family: 'Noto Serif', serif;
         }
         nav:hover {background-color: #54a2f03c;
         color: black;}
