@@ -10,13 +10,13 @@ body{font-family: 'Noto Serif', serif;}
    
 body {background-color: #94ddf59f;}
 
-a {color:black;}
-a:hover{background-color: rgba(255, 255, 255, 0.534);
+a {color:#000000;}
+a:hover{background-color: rgba(255, 255, 255, 0.334);
 }
 
 .nav1,.nav2,.nav3{text-decoration: none;
     margin: 10px;
-    color: white;}
+    color: #ffffff;}
 
 /*Navigation*/
 nav{
@@ -30,7 +30,7 @@ nav{
     font-size: 20px;
     font-family: 'Noto Serif', serif;}
     nav:hover {background-color: rgba(0, 0, 0, 0);;
-        color: black;}
+        color: #000000;}
 
     header {
         width: 100%;
