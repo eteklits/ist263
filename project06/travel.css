@@ -25,7 +25,7 @@ body{font-family: 'Noto Serif', serif;}
         top: 2%; 
         right: 1%;
         color: #000000;
-        background-color: #2990e4;
+        background-color: #027bde;
         border: 1px solid white;
         padding:10px;
         font-size: 20px;
@@ -142,7 +142,7 @@ text-align: center;}
 
     nav{
         position: absolute;
-        top: 1%; 
+        top: 1.5%; 
         right: 1%;
         color: #000000;
         background-color: #2990e4;
