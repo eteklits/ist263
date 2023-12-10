@@ -11,6 +11,10 @@ body{font-family: 'Noto Serif', serif;}
    
 body {background-color: #94ddf59f;}
 
+a {color:black;}
+a:hover{background-color: rgba(255, 255, 255, 0.391);
+}
+
 .nav1,.nav2,.nav3{text-decoration: none;
 margin: 10px;
 color:white;}
@@ -29,9 +33,10 @@ text-decoration: none;
 text-decoration-line: none;
 font-family: 'Noto Serif', serif;}
 nav:hover {background-color: rgba(0, 0, 0, 0);;
-    color: black;}
+    color: white;}
 
-    h1 {color: white;}
+h1 {color: white;}
+
 /* current header */
 header {
     width: 100%;
