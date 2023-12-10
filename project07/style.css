@@ -1,0 +1,148 @@
+/* Accessibility*/ 
+body{font-family: 'Noto Serif', serif;}
+
+
+#skip {background-color: #7fffd4;
+    padding: 5px;
+    border: 5 px;
+    text-decoration: none;
+    position: absolute; 
+    top: 10px;
+    left: -999px}
+   
+body {background-color: #94ddf59f;}
+
+a {color:black;}
+a:hover{background-color: rgba(255, 255, 255, 0.391);
+}
+
+.nav1,.nav2,.nav3{text-decoration: none;
+margin: 10px;
+color:#ffffff;}
+
+/*Navigation*/
+nav{
+position: absolute;
+top: 3%; 
+right: 1%;
+color: #000000;
+background-color: #7aaaedc8;
+border: 1px solid white;
+padding:10px;
+font-size: 20px;
+text-decoration: none;
+text-decoration-line: none;
+font-family: 'Noto Serif', serif;}
+nav:hover {background-color: rgba(0, 0, 0, 0);;
+    color: #ffffff;}
+
+h1 {color: #ffffff;}
+
+/* current header */
+header {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto; 
+    color: #ffffff;
+  }
+
+  header img {
+    width: 100%;
+    height: auto;
+    display: block; 
+    margin-top: -30px;
+    margin-bottom: -20px;
+  }
+
+h1 {text-align:center;
+font-size: 30px;
+background-color: #54a2f03c;
+padding: 15px;
+color: #000000;
+font-family: 'Noto Serif', serif;
+border: 7px solid #ffffff;
+}
+
+
+/*images */
+.images { display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 2px;
+    flex-wrap: wrap;
+    filter: brightness(105%);
+    filter: contrast(105%);}
+
+img {border: 7px solid #ffffff;}
+
+/*text under images */
+.text {text-align: center;
+    background-color: #54a2f03c;
+    padding: 30px;
+    font-size: 17px;
+    font-family: 'Noto Serif', serif;
+    color: #000000;
+
+}
+
+/*widgets*/
+.row1{ display:flex;
+    justify-content: space-around;
+    }
+
+
+.sydney, .travel, .school{
+flex:1;
+text-align: center;
+background-color: #54a2f03c;
+font-size: 15px;
+font-family: 'Noto Serif', serif;
+margin: 10px;
+}
+div strong {font-size: 25px;}
+
+/*footer*/
+.row2{ display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #54a2f03c;;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    border: 5px solid #ffffff;
+    padding:5px;
+    }
+
+.questions3, .nice {flex:auto;
+padding:10px;
+text-align: center;}
+
+.nice{padding:40px;
+    flex-wrap: wrap;}
+
+
+ @media only screen and (max-width:800px) { 
+    nav{
+        position: absolute;
+        top: 2%; 
+        right: 1%;
+        color: #000000;
+        background-color: #7aaaedc8;
+        border: 1px solid white;
+        padding:2px;
+        font-size: 12px;
+        font-family: 'Noto Serif', serif;}
+        nav:hover {background-color: #54a2f03c;
+        color: black;}
+
+        .sydney, .travel, .school, .row1{
+        flex-wrap: wrap;}
+        
+        .row2 {
+            align-items: center;
+        }
+
+    }
+@media only screen and (min-width:801px) {
+        
+}
