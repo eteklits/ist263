@@ -145,7 +145,8 @@ text-align: center;}
         top: 2%; 
         right: 1%;
         color: #000000;
-        background-color: #ffffff;
+        background-color: #2990e4;
+        border: 1px solid white;
         padding:2px;
         font-size: 12px;
         font-family: 'Noto Serif', serif;}
