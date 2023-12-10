@@ -10,6 +10,10 @@ body{font-family: 'Noto Serif', serif;}
    
 body {background-color: #94ddf59f;}
 
+a {color:black;}
+a:hover{background-color: rgba(255, 255, 255, 0.534);
+}
+
 .nav1,.nav2,.nav3{text-decoration: none;
     margin: 10px;
     color: white;}
