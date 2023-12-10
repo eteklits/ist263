@@ -1,0 +1,210 @@
+body{font-family: 'Noto Serif', serif;}
+/* Accessibility*/ 
+#skip {background-color: #7fffd4;
+    padding: 5px;
+    border: 5 px;
+    text-decoration: none;
+    position: absolute; 
+    top: 10px;
+    left: -999px}
+   
+body {background-color: #94ddf59f;}
+
+a {color:#000000;}
+a:hover{background-color: #ffffff55;
+}
+
+
+.nav1,.nav2,.nav3{text-decoration: none;
+    margin: 10px;
+    color: #ffffff;}
+
+/*Navigation*/
+nav{
+    position: absolute;
+    top: 2%; 
+    right: 1%;
+    color: #000000;
+    background-color: #56b3e9c1;
+    border: 1px solid white;
+    padding:10px;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;}
+    nav:hover {background-color: rgba(0, 0, 0, 0);;
+        color: #000000;}
+
+    header {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto; 
+      }
+    
+      header img {
+        width: 100%;
+        height: auto;
+        display: block; 
+        margin-top: -30px;
+        margin-bottom: -20px;
+      }
+/*Header- Australia
+    h1 {text-align:center;
+    font-size: 60px;
+    background-color: #54a2f03c;
+    padding: 1px;
+    color:aliceblue;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 7px solid #ffffff;
+    }*/
+
+/*First paragraph*/
+.firstparagraph {text-align: center;
+    background-color: #54a2f03c;
+    padding:10px;
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Noto Serif', serif;}
+
+.firstparagraph2 {text-align: center;
+    background-color: #54a2f03c;
+    padding:10px;
+    font-size: 15px;
+    font-family: 'Noto Serif', serif;}
+
+
+/* 1st complex design*/
+.row1 {display:flex;
+    justify-content: center;
+    justify-content:space-around;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;}
+.column3, .column4 {
+    flex:3;}
+
+.column1, .column2 {
+    flex:3;}
+
+.column4, .column1{padding:5px;
+    background-color: #54a2f03c;
+    margin: 5px;
+    }
+
+.column2, .column3 {padding: 10px;}
+
+
+/* 2nd complex design*/
+.row2, .row3 {display:flex;
+    justify-content: center;
+    justify-content:space-between;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;}
+.column7, .column8{
+    flex:3;}
+
+.column5, .column6{
+    flex:3;}
+
+.column8, .column5{padding:5px;
+    background-color: #54a2f03c;
+    margin: 10px;
+    }
+
+.column6, .column7 {padding: 10px}
+
+/* 3rd complex design*/
+.row3 {display:flex;
+    justify-content: center;
+    justify-content:space-between;
+    flex: 1;
+    align-items: center;}
+
+.column11, .column12 {
+    flex:3;}
+
+.column9, .column10 {
+    flex:3;}
+
+.column12, .column9{padding:5px;
+    background-color: #54a2f03c;
+    margin: 10px;
+    }
+
+.column9, .column11 {padding: 10px;}
+
+
+/* 4th complex design*/
+.row4 {display:flex;
+    justify-content: center;
+    justify-content:space-between;
+    flex: 1;
+    align-items: center;
+    flex-wrap: wrap;}
+
+.column15, .column16 {
+    flex:3;}
+
+.column13, .column14 {
+    flex:3;}
+
+.column13, .column16{padding:5px;
+    background-color: #54a2f03c;
+    margin: 10px;
+    }
+
+.column14, .column15 {padding: 10px;}
+
+/*footer*/
+.footer{background-color: #54a2f03c;
+margin: 10px;
+font-size: 15px;
+border-radius: 1em;
+padding:5px;
+font-family: 'Noto Serif', serif;}
+
+/*footer*/
+.row5{ display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #54a2f03c;;
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    padding:5px;
+    border: 5px solid #ffffff;
+    }
+
+.questions3, .nice {flex:auto;
+padding:10px;
+text-align: center;
+align-items:center;}
+
+
+/*images*/
+img {border: 7px solid #ffffff;}
+
+hr {
+    border: 3px solid #ffffff; 
+    margin: 0px 0; 
+  }
+
+  @media only screen and (max-width:800px) { 
+    .row5{align-items: center;}
+
+    nav{
+        position: absolute;
+        top: 2%; 
+        right: 1%;
+        color: #000000;
+        background-color: #56b3e9c1;
+        border: 1px solid white;
+        padding:2px;
+        font-size: 12px;
+        font-family: 'Noto Serif', serif;
+        }
+        nav:hover {background-color: #54a2f03c;
+        color: black;}
+  }
+
+  @media only screen and (min-width:801px) {
+        
+  }
