@@ -8,15 +8,15 @@ body{font-family: 'Noto Serif', serif;}
     top: 10px;
     left: -999px}
 
-    a {color:black;}
-    a:hover{background-color: rgba(255, 255, 255, 0.34);
+    a {color:#000000;}
+    a:hover{background-color: #ffffff57;
     }
 
-    body {background-color: rgba(148, 221, 245, 0.622);}
+    body {background-color: #94ddf59f;}
 
     .nav1,.nav2,.nav3{text-decoration: none;
         margin: 10px;
-        color: white;
+        color: #ffffff;
         }
 
     /*Navigation*/
@@ -30,8 +30,8 @@ body{font-family: 'Noto Serif', serif;}
         padding:10px;
         font-size: 20px;
         font-family: 'Noto Serif', serif;}
-        nav:hover {background-color: rgba(0, 0, 0, 0);;
-            color: black;}
+        nav:hover {background-color: #00000000;;
+            color: #000000;}
     
         header {
             width: 100%;
@@ -65,7 +65,7 @@ video {border: 10px solid #ffffff;}*/
 
 /*first paragraph */
 .firstparagraph {text-align: center;
-color: black;
+color: #000000;
 font-weight: 800px;
 background-color: #54a2f03c;
 padding:10px;
