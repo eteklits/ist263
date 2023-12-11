@@ -8,10 +8,23 @@
     <link rel="shortcut icon" type="image/x-icon" href="../Project04/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <script>
+        function showNav () {
+            document.getElementById("navicons").style.display = "block";
+        }
+    
+        function hideNav () {
+            document.getElementById("navicons").style.display = "none";
+        }
+    </script>
 </head>
 <body>
     <a href="#main" id="skip" tabindex="1">Skip to Content</a>
-    <nav>
+    <div class="firstrow">
+        <img id="hamicon" src = "../Project04/Hamburger.png" alt="hamburger icon" onclick="showNav();">
+    </div>
+    <p id="close" onclick="hideNav();">x</p>
+    <nav id="navicons">
         <a href= "../project07/Homepage.html" class="nav1" tabindex="2" >Homepage</a>
         <a href="sydney.html" class="nav2" tabindex="3" >Sydney</a>
         <a href="../project07/travel.html" class="nav3" tabindex="4">Travel</a>
