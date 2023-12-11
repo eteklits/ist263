@@ -195,20 +195,43 @@ hr {
         top: 2%; 
         right: 1%;
         color: #000000;
-        background-color: #56b3e9c1;
-        border: 1px solid white;
-        padding:2px;
+        background-color: #7aaaed;
+        border: 3px solid white;
+        padding:4px;
         font-size: 12px;
         font-family: 'Noto Serif', serif;
+         margin: 5 px;
         }
-        nav:hover {background-color: #54a2f03c;
-        color: black;}
+        a {display:block;
+        }
+        nav:hover {background-color: #54a2f0;
+       }
         .column1, .column4, .column5, .column8, .column9, .column12, .column13, .column16 {
             display:flex;
             flex-wrap: wrap;
         }
+        img{
+            margin: auto;
+        display: block;
+        }
+        #navicons {display:none}
+        #close {
+        position: absolute;
+        z-index: 2;
+        top: 2%; 
+        right: 2%;}
   }
 
   @media only screen and (min-width:801px) {
-        
-  }
+   
+            #hamicon, #close {display:none;}
+            }
+  
+  #hamicon {width:30px;
+    position: absolute;
+    top: 0;
+    right: 0;}
+
+#hamicon, #close {cursor:pointer;}
+.firstrow {display:flex; 
+    justify-content:spacebetween;}
