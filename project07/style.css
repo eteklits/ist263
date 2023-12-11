@@ -125,18 +125,45 @@ text-align: center;}
         top: 2%; 
         right: 1%;
         color: #000000;
-        background-color: #7aaaedc8;
-        border: 1px solid white;
-        padding:2px;
+        background-color: #7aaaed;
+        border: 3px solid white;
+        padding:4px;
         font-size: 12px;
-        font-family: 'Noto Serif', serif;}
-        nav:hover {background-color: #54a2f03c;}
+        font-family: 'Noto Serif', serif;
+         margin: 5 px;}
+
+        nav:hover {background-color: #54a2f0;}
+
         .sydney,.school,.travel {border: 5px solid #ffffff;}
+        a {display:block;
+            }
+        #navicons {display:none}
+        #close {
+        position: absolute;
+        z-index: 2;
+        top: 2%; 
+        right: 2%;}
+        img{
+            margin: auto;
+        display: block;}
+
+    
     }
 
 
 @media only screen and (min-width:801px) {
     .row1{ display:flex;
-        justify-content: space-around;
+        justify-content: space-around;}
+        #hamicon, #close {display:none;}
         }
-    }
+    
+
+    #hamicon {width:30px;
+        position: absolute;
+        top: 0;
+        right: 0;}
+
+    #hamicon, #close {cursor:pointer;}
+    .firstrow {display:flex; 
+        justify-content:spacebetween;}
+  
