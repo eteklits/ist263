@@ -12,7 +12,9 @@ body{font-family: 'Noto Serif', serif;}
    
 body {background-color: #94ddf59f;}
 
-a {color:black;}
+a {color: black;
+font-weight:900;
+text-decoration: none;}
 a:hover{background-color: rgba(255, 255, 255, 0.391);
 }
 
@@ -91,6 +93,7 @@ img {border: 7px solid #ffffff;}
 
 
 .sydney, .travel, .school{
+text-decoration: none;
 flex:1;
 text-align: center;
 background-color: #54a2f03c;
@@ -145,11 +148,7 @@ text-align: center;}
         right: 2%;}
         img{
             margin: auto;
-        display: block;}
-
-    
-    }
-
+        display: block;} }
 
 @media only screen and (min-width:801px) {
     .row1{ display:flex;
@@ -157,7 +156,6 @@ text-align: center;}
         #hamicon, #close {display:none;}
         }
     
-
     #hamicon {width:30px;
         position: absolute;
         top: 0;
@@ -165,5 +163,5 @@ text-align: center;}
 
     #hamicon, #close {cursor:pointer;}
     .firstrow {display:flex; 
-        justify-content:spacebetween;}
+    justify-content:spacebetween;}
   
